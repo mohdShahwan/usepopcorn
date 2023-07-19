@@ -45,7 +45,7 @@ export default function StarRating({
     lineHeight: "1",
     margin: "0",
     color,
-    fonSize: `${size / 1.5}px`,
+    fontSize: `${size / 1.5}px`,
     className,
   };
 
@@ -79,6 +79,13 @@ export default function StarRating({
 }
 
 function Star({ onRate, full, onHoverIn, onHoverOut, color, size }) {
+  const starStyle = {
+    width: `${size}px`,
+    height: `${size}px`,
+    display: "block",
+    cursor: "pointer",
+  };
+
   return (
     <span
       role="button"
