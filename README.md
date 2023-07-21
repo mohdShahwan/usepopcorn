@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# React Mini Project: usePopcorn
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This mini project is a React application called "usePopcorn" that allows users to explore and search for their favorite movies. The application uses React hooks (states and effects), and API integration.
 
-## Available Scripts
+## Project Description
 
-In the project directory, you can run:
+The "usePopcorn" project comes with the following functionalities:
 
-### `npm start`
+1. **Movie Search:** Users can search for movies and TV shows by entering their query into the search bar. The application will fetch and display relevant results using the OMDB API.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. **Movie List:** The search results are presented as a list of movies and TV shows. Each item in the list includes the movie's title, image, and release year.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3. **Movie Details:** When a user clicks on a movie from the list, a detailed view of the movie is shown. This view contains additional information such as the movie's runtime, IMDb rating, plot summary, and cast.
 
-### `npm test`
+4. **Add to Watched List:** Users can add movies to their watched list by selecting the movie and rating it using a star rating component.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+5. **Watched Summary:** The application provides a summary of the movies watched by the user, including the total number of movies watched, average IMDb rating, average user rating, and average runtime.
 
-### `npm run build`
+6. **Delete from Watched List:** Users can remove movies from their watched list by clicking the delete button on the movie's entry.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### [ Live link](https://mohdshahwan.github.io/usepopcorn/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Installation and Usage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To run the "usePopcorn" application locally, follow these steps:
 
-### `npm run eject`
+1. Clone the repository: `git clone https://github.com/mohdShahwan/usepopcorn.git`
+2. Navigate to the project directory: `cd usepopcorn`
+3. Install the dependencies: `npm install`
+4. Start the development server: `npm start`
+5. Open your web browser and visit `http://localhost:3000` to access the application.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Technologies Used
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The "usePopcorn" application is built using the following technologies:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- React
+- JavaScript (ES6)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Credits
 
-## Learn More
+The "usePopcorn" project is developed independently but utilizes the OMDB API to fetch movie data.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you for exploring the "usePopcorn" application! Enjoy searching and discovering your favorite movies and TV shows! 🍿
