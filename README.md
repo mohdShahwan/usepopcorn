@@ -1,6 +1,6 @@
 # React Mini Project: usePopcorn
 
-This mini project is a React application called "usePopcorn" that allows users to explore and search for their favorite movies. The application uses React hooks (states and effects), and API integration.
+This mini project is a React application called "usePopcorn" that allows users to explore and search for their favorite movies. The application uses React hooks (states, effects, and custom effects), and API integration.
 
 ## Project Description
 
