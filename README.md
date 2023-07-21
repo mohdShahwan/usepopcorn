@@ -39,6 +39,6 @@ The "usePopcorn" application is built using the following technologies:
 
 ## Credits
 
-The "usePopcorn" project is developed independently but utilizes the OMDB API to fetch movie data.
+This mini project is part of the React Udemy course by Jonas Schmedtmann.
 
 Thank you for exploring the "usePopcorn" application! Enjoy searching and discovering your favorite movies and TV shows! 🍿
